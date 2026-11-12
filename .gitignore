@@ -1,2 +1,7 @@
 exedir
 puzmon0.c
+
+# Claude Code 用の指示ファイル（個人用・共有しない）
+CLAUDE.md
+CLAUDE.local.md
+.claude/
