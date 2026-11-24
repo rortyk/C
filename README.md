@@ -33,10 +33,10 @@ git show <コミットID>:basics/code.c        # それ以降のコミットの�
 
 ## 動かし方
 
-リポジトリのルートでコンパイルして実行します。実行ファイルは `exedir/` に出力します（`.gitignore` で除外しているため、リポジトリには含まれません）。
+リポジトリのルートでコンパイルして実行します。実行ファイルは `bin/` に出力します（`.gitignore` で除外しているため、リポジトリには含まれません）。
 
 ```bash
-mkdir -p exedir
-gcc -Wall -Wextra -o exedir/code basics/code.c
-./exedir/code
+mkdir -p bin
+gcc -Wall -Wextra -o bin/code basics/code.c
+./bin/code
 ```
